@@ -2,6 +2,8 @@
 
 set -e
 
+docker rm -f $(docker ps -q)
+
 # Build the image
 
 docker build -t develop:v1 .
