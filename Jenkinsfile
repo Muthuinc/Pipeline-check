@@ -8,5 +8,11 @@ pipeline {
                 echo "building"
             }
         }
+
+        stage ('done') {
+            steps {
+                echo "final"
+            }
+        }
     }
 }

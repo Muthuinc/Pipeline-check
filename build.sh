@@ -15,3 +15,4 @@ then
     echo "success"
 
 echo "completed"
+fi
